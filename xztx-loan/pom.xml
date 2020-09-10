@@ -10,7 +10,27 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
     <artifactId>xztx-loan</artifactId>
 
+    <name>xztx-loan</name>
+    <description>信贷模块</description>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-web</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+        <finalName>xztx-loan</finalName>
+    </build>
 </project>

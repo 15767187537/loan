@@ -77,6 +77,8 @@
             <version>1.0.9.RELEASE</version>
         </dependency>
 
+
+
         <!--springCloud 监控包-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -103,6 +105,19 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-hystrix</artifactId>
+        </dependency>
+
+        <!--mysql连接jdbc-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.46</version>
+        </dependency>
+
+        <!--druid数据库连接池-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
         </dependency>
     </dependencies>
 
