@@ -17,4 +17,16 @@ public class XztxLoanApplicationTest {
     public void test01() {
         System.out.println("111");
     }
+
+    @Test
+    public void test02() {
+        int sum = 20;
+        System.out.println("前: " + sum);
+        sum = sumAll(sum);
+        System.out.println("后: " + sum);
+    }
+
+    private int sumAll(int sum) {
+        return sum += 10;
+    }
 }
